@@ -1,0 +1,42 @@
+.card {
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 0.1),
+            rgba(255, 255, 255, 0.1));
+
+    backdrop-filter: blur(21px);
+    box-shadow: 0 8px 32px 0 rgba (0, 0, 0, 0.36);
+    border-radius: 24px;
+    padding: 40px;
+    margin: 25px;
+}
+
+.card:where(h2, p) {
+    color: #fff;
+    text-align-last: center;
+    margin: 0;
+}
+
+.card h2 {
+    font-size: 48px;
+}
+
+.card p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #d1d1d1;
+}
+
+
+.icon-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto);
+}
+
+.icon {
+    width: auto;
+    height: 6vh;
+    margin-top: 5vh;
+    margin-bottom: .5vh;
+
+}
